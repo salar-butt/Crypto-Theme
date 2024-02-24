@@ -1,0 +1,1114 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    
+}
+
+.black {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+
+    background-color: white;
+}
+
+.black img {
+    padding: 30px;
+    margin-left: 50px;
+}
+
+.black ul {
+    list-style: none;
+    font-size: 16px;
+    margin-left: 600px;
+    margin-top: -55px;
+}
+
+.black li {
+    color: black;
+    float: left;
+    margin-left: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.black li:hover {
+    transition: 1s;
+    cursor: pointer;
+    color: #F4A919;
+}
+
+.main {
+    background-image: url(./preview_themeforest_net/slide-01.jpg);
+    background-size: 100% 100%;
+    height: 900px;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.main h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    position: relative;
+    top: 350px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 370px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 2;
+    word-spacing: 2px;
+}
+
+
+.main .white {
+
+    height: 45px;
+    background-color: #F4A919;
+    color: white;
+    border: 1px solid #F4A919;
+    border-radius: 5px;
+    ;
+    position: relative;
+    top: 420px;
+    left: 460px;
+    margin-left: 20px;
+    width: 180px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.white:hover {
+    cursor: pointer;
+    transition: 1s;
+    background-color: rgb(29, 28, 28);
+    border: 1px solid rgb(29, 28, 28);
+}
+
+.main .coin {
+    background-color: white;
+    border: 1px solid white;
+    color: rgb(29, 28, 28);
+}
+
+.coin:hover {
+    cursor: pointer;
+    transition: 1s;
+    background-color: rgb(29, 28, 28);
+    border: 1px solid rgb(29, 28, 28);
+    color: white;
+}
+
+.rand {
+    
+    height: 500px;
+    width: auto;
+}
+
+.rand h1 {
+    position: relative;
+    width: 200px;
+    top: 100px;
+    font-weight: 100;
+    left: 100px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.rand p {
+    left: 100px;
+    font-size: 15px;
+    color: rgb(49, 49, 49);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 110px;
+    width: 500px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.rand button {
+    background-color: #F4A919;
+    height: 50px;
+    width: 180px;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    position: relative;
+    top: 150px;
+    border: none;
+    left: 100px;
+    font-weight: 600;
+}
+
+.rand button:hover {
+    transition: 1s;
+    cursor: pointer;
+    background-color: transparent;
+    color: #F4A919;
+    border: 2px solid #F4A919;
+
+}
+
+.rand img {
+    position: relative;
+    top: -100px;
+    margin-right: 80px;
+    float: right;
+}
+
+.gray {
+    height: 800px;
+    width: 100%;
+    background-color: #F7F7F7;
+    margin-top: 1;
+
+}
+
+.gray h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.gray p {
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(116, 112, 112);
+    margin-top: -35px;
+    text-align: center;
+}
+
+.gray div {
+    position: relative;
+    left: 160px;
+    top: 20px;
+    height: 250px;
+    width: 350px;
+    background-color: white;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+
+
+}
+
+.gray .key img {
+    position: relative;
+    top: 40px;
+    left: 150px;
+
+}
+
+.key label {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 70px;
+    left: 60px;
+}
+
+.gray .key:hover {
+    transition: 0.7s;
+    cursor: pointer;
+    box-shadow: 1px 1px 15px 0px rgb(168, 167, 167);
+}
+
+.key p {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 120px;
+    color: rgb(160, 152, 152);
+}
+
+
+.one .box img {
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+}
+
+.one h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: black;
+    position: relative;
+    top: -20px;
+    left: 250px;
+    float: left;
+}
+
+.one p {
+    position: relative;
+    top: 10px;
+    color: rgb(116, 112, 112);
+    float: left;
+    text-align: justify;
+    left: 90px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.one .box:hover {
+    transition: 0.7s;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.two label {
+    font-size: 100px;
+    color: rgb(230, 227, 227);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 100px;
+    z-index: -1;
+    margin-left: -350px;
+}
+
+.two .box {
+    height: 90px;
+    width: 100px;
+    background-color: #f4a719e0;
+    position: relative;
+    top: 30px;
+    margin-left: 130px;
+    opacity: -3px;
+}
+
+.two .box img {
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+}
+
+.two h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: black;
+    position: relative;
+    top: -60px;
+    left: 250px;
+    float: left;
+}
+
+.two p {
+    position: relative;
+    top: -30px;
+    color: rgb(116, 112, 112);
+    float: left;
+    text-align: justify;
+    left: 105px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.two .box:hover {
+    transition: 0.7s;
+
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.three label {
+    font-size: 100px;
+    color: rgb(230, 227, 227);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 60px;
+    z-index: -1;
+    margin-left: -350px;
+}
+
+.three .box {
+    height: 90px;
+    width: 100px;
+    background-color: #f4a719e3;
+    position: relative;
+    top: -10px;
+    margin-left: 130px;
+    opacity: -3px;
+}
+
+.three .box img {
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+}
+
+.three h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: black;
+    position: relative;
+    top: -100px;
+    left: 250px;
+    float: left;
+}
+
+.three p {
+    position: relative;
+    top: -70px;
+    color: rgb(116, 112, 112);
+    float: left;
+    text-align: justify;
+    left: 60px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.three .box:hover {
+    transition: 0.7s;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.work img {
+    position: relative;
+    top: -430px;
+    left: 150px;
+    height: 420px;
+    width: 600px;
+    background-size: 100% 100%;
+}
+
+.prices {
+    background-color: #F7F7F7;
+    height: 600px;
+    width: 100%;
+    margin-top: -330px;
+}
+
+.prices h1 {
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    font-weight: 400;
+    top: 80px;
+}
+
+.prices p {
+    color: rgb(168, 167, 167);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    font-weight: 400;
+    top: 90px;
+}
+
+table {
+    position: relative;
+    top: 150px;
+    left: 100px;
+    text-align: center;
+    border: 1px solid lightgray;
+    height: 300px;
+    width: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+
+
+}
+
+th {
+    background-color: black;
+    width: 100px;
+    border-collapse: collapse;
+    color: white;
+    font-weight: 100;
+}
+
+.our h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: black;
+}
+
+.our p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    position: relative;
+    top: 110px;
+    text-align: center;
+    color: rgb(153, 153, 153);
+}
+
+.boy {
+    height: 500px;
+    width: 400px;
+    margin-left: 30px;
+    position: relative;
+    top: 180px;
+    /* left: 10px; */
+    float: left;
+
+}
+
+.boy .pic {
+    background-image: url(./preview_themeforest_net/01.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.boy h1 {
+    position: relative;
+    top: 20px;
+    font-size: 23px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.boy h1:hover {
+    cursor: pointer;
+    color: #F4A919;
+    transition: 0.7s;
+}
+
+.boy p {
+    position: relative;
+    top: 30px;
+    font-size: 15px;
+    color: rgb(112, 111, 111);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.boy ul {
+    font-size: 18px;
+
+    position: relative;
+    left: 40px;
+    top: 50px;
+    list-style: none;
+    color: rgb(110, 108, 108);
+}
+
+.boy li {
+    float: left;
+
+    border: 1px solid rgb(110, 108, 108);
+    margin-left: 20px;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.boy li:hover {
+    cursor: pointer;
+    transition: 1s;
+    background-color: #F4A919;
+    border-radius: 100px;
+    color: white;
+}
+
+.boy .boy2 {
+    background-image: url(./preview_themeforest_net/02.jpg);
+
+}
+
+.boy .girl {
+    background-image: url(./preview_themeforest_net/03.jpg);
+
+}
+
+.boy .list {
+    height: 100px;
+    /* width:30%; */
+    background-color: transparent;
+    position: relative;
+    top: 200px;
+}
+
+.boy .list ol {
+    list-style: none;
+    position: relative;
+    top: 20px;
+}
+
+.boy .list li {
+    padding: 0;
+    font-size: 17px;
+    float: none;
+    border: none;
+    color: transparent;
+    background-color: transparent;
+    margin-top: 10px;
+    /* width: 25%; */
+}
+
+.boy .list ul {
+    list-style: none;
+    position: relative;
+    top: -40px;
+    left: 50px;
+
+}
+
+.boy .list ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: transparent;
+}
+
+.boy:hover .list {
+    cursor: pointer;
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.836);
+}
+
+.boy:hover .list ul li {
+    cursor: pointer;
+    transition: 1s;
+    color: white;
+}
+
+.boy:hover .list ol li {
+    color: #F4A919;
+    cursor: pointer;
+transition: 1s;}
+
+.bitcoin {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./preview_themeforest_net/bg-counter.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 100%;
+    position: relative;
+    top: 750px;
+}
+
+/* .sec{
+    border: 2px solid blue;
+} */
+.bitcoin .bit {
+    height: 170px;
+    width: 170px;
+
+    position: absolute;
+    top: 50px;
+    left: 160px;
+    border: 3px solid rgb(196, 194, 194);
+    border-radius: 100%;
+}
+
+.bitcoin>.bit h1 {
+    color: #F4A919;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    top: 23%;
+    left: 40%;
+    position: absolute;
+
+}
+
+.bit h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    position: absolute;
+    color: white;
+    top: 43%;
+    left: 26%;
+}
+
+.bitcoin>.bit2 {
+    left: 30%;
+}
+
+.bitcoin>.bit3 {
+    left: 50%;
+}
+
+.bitcoin>.bit4 {
+    left: 70%;
+}
+
+
+/* .news{
+  position:relative;
+  height: 100px;
+
+} */
+.news {
+    position: relative;
+    top: 750px;
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.news .rand h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    width: 300px;
+    position: absolute;
+    /* top:100px; */
+    left: 600px;
+    color: black;
+}
+
+.rand {
+    height: 400px;
+}
+
+.news .rand p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    position: absolute;
+    top: 130px;
+    left: 450px;
+    width: 550px;
+    color: rgb(153, 153, 153);
+}
+
+.ico {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    top: 900px;
+}
+
+.ico div {
+    height: 500px;
+    width: 380px;
+    position: relative;
+    top: -150px;
+    float: left;
+    margin-left: 30px;
+    left: 40px;
+}
+
+.over .pico {
+    background-image: url(./preview_themeforest_net/post-3-column-01.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: -30px;
+}
+
+.over>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: black;
+    position: absolute;
+    top: 330px;
+    font-weight: 100;
+}
+
+.over>ul {
+    font-size: 16px;
+    color: rgb(182, 178, 178);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 390px;
+    list-style: none;
+}
+
+.over ul li {
+    float: left;
+
+    margin-left: 10px;
+}
+
+.over ul li i {
+    color: #F4A919;
+}
+
+.over p {
+    position: absolute;
+    top: 430px;
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.over h1:hover {
+    color: #F4A919;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.over2 .pico {
+    background-image: url(./preview_themeforest_net/post-3-column-10.jpg);
+}
+
+.over3 {
+    /* background-color: red; */
+    height: 300px;
+    width: 410px;
+    /* top:4860px; */
+    left: 1000px;
+    position: relative;
+}
+
+.over3 .pico {
+    background-image: url(./preview_themeforest_net/post-3-column-03.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    position: relative;
+    top:0px;
+    /* top:1000px; */
+    left: -30px;
+}
+
+.over3>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: black;
+    position: absolute;
+    top: 330px;
+    font-weight: 100;
+}
+
+.over3>ul {
+    font-size: 16px;
+    color: rgb(182, 178, 178);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 390px;
+    list-style: none;
+}
+
+.over3 ul li {
+    float: left;
+
+    margin-left: 10px;
+}
+
+.over3 ul li i {
+    color: #F4A919;
+}
+
+.over3 p {
+    position: absolute;
+    top: 430px;
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.over3 h1:hover {
+    color: #F4A919;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.jet {
+    background-image: url(./preview_themeforest_net/bg-footer.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: 950px;
+}
+
+.jet h1 {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+
+}
+
+.jet p {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: white;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+
+}
+
+.jet h2 {
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    color: #F4A919;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+
+}
+
+.jet input {
+    position: absolute;
+    top: 230px;
+    font-style: italic;
+    left: 100px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    height: 45px;
+    width: 260px;
+
+}
+
+.jet i {
+    background-color: #F4A919;
+    color: white;
+    position: absolute;
+    top: 230px;
+    left: 360px;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.jet i:hover {
+    background-color: black;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.link {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    left: 32%;
+    /* background-color: #F4A919; */
+}
+
+.link h1 {
+    /* position: absolute; */
+    top: 70px;
+    /* left:600px; */
+    color: #F4A919;
+    font-size: 23px;
+/* height:30px; */
+/* width:30%;    font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 100;
+}
+.right{
+    height:160px;
+    width:100%;
+    position: absolute;
+    top:27%;
+}
+.right .ul{
+    list-style-type: none;
+    width:200px;
+    height:160px;
+}
+.ul li{
+   margin-left: 100px;
+    list-style: disc;
+    margin-top:10px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color:rgb(112, 110, 110);
+    height: 15px;
+}
+.right .ol{
+    margin-top: -170px;
+    margin-left: 220px;
+    list-style-type: none;
+    width:200px;
+    height:160px;
+}
+.ol li{
+   margin-left: 30px;
+    list-style: disc;
+   
+    margin-top:10px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+      color:rgb(112, 110, 110);
+    
+    height: 15px;
+}
+
+
+
+.contact {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    left: 60%;
+}
+
+.contact>h1 {
+    position: absolute;
+    top: 70px;
+    /* left:1100px; */
+    color: #F4A919;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.contact>p {
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    position: absolute;
+    top: 100px;
+    /* border: 5px solid blue; */
+    /* left:1100px; */
+}
+
+.contact p span {
+    /* border: 4px solid red; */
+    line-height: 1.5;
+    color: rgb(155, 154, 154);
+}
+
+.jet .iconsocial ul {
+    position: absolute;
+    top: 0px;
+    /* left:740px; */
+    list-style: none;
+}
+
+.iconsocial {
+    width: 99%;
+    height: 20%;
+    position: absolute;
+    top: 60%;
+}
+.iconsocial>i{
+    border-radius: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* float: left; */
+}
+.iconsocial>.fa-facebook{
+    border:1px solid gray;
+    position: absolute;
+    left: 20%;
+}
+.iconsocial>.fa-twitter{
+    border:1px solid gray;
+
+    position: absolute;
+    left: 35%;
+}
+.iconsocial>.fa-google-plus-g{
+    border:1px solid gray;
+
+    position: absolute;
+    left: 50%;
+}
+.iconsocial>.fa-instagram{
+    border:1px solid gray;
+
+    position: absolute;
+    left: 65%;   
+}
+.iconsocial>.fa-linkedin-in{
+    border:1px solid gray;
+
+    position: absolute;
+    left: 80%;   
+}
+.iconsocial>i:hover{
+    transition: 1s;
+    cursor: pointer;
+    background-color: #F4A919;
+    color:white;
+}
+.jet hr{
+    position: absolute;
+    top: 330px;
+    left:100px;
+    width:85%;
+   border:1px solid rgb(100, 99, 99) ;
+}
+.jet h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    word-spacing: 1;
+    letter-spacing: 1px;
+    position: absolute;
+    left:100px;
+    top:360px;
+    color:rgb(100, 98, 98);
+    font-weight: 100;
+}
+.jet span{
+    color:white;
+}
+.jet .ul2 li{
+    position: absolute;
+    height:30px;
+    top:360px;
+    left:890px;
+    width:80px;
+    list-style: none;
+    color:gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ul2 li:hover{
+    color:#F4A919;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.ul2 .about2{
+    margin-left: 80px;
+}
+.ul2 .service{
+    margin-left: 150px;
+}
+.ul2 .page{
+    margin-left: 230px;
+}
+.ul2 .blog{
+    margin-left: 300px;
+}
+.ul2 .contact{
+    margin-left: 360px;
+}  
